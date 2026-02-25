@@ -1,0 +1,40 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+/build_output
+/.next_old
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+*.log
+server.log
+deploy_output.log
+build_output.log
+build_output_utf8.log
+sites_list.json
+
+# env files
+.env*
+
+# vercel & netlify
+.vercel
+.netlify
+.vercel/
+.netlify/
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
