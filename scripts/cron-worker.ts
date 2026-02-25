@@ -1,8 +1,6 @@
 import cron from "node-cron";
 import axios from "axios";
-import dotenv from "dotenv";
 
-dotenv.config();
 
 // The URL of your Next.js API route that handles the news fetching
 // If running locally, this will be http://localhost:3000/api/cron/fetch-news
